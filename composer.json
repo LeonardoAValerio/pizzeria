@@ -1,0 +1,27 @@
+{
+    "name": "leonardoavalerio/pizzeria",
+    "description": "This application serves the purpose of exposing a JSON API to be consumed by frontend client for ordering pizza.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "LeonardoAValerio",
+            "email": "leonardoaugustovalerio@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7",
+        "php-di/php-di": "^7.0",
+        "illuminate/database": "^12.22"
+    }
+}
